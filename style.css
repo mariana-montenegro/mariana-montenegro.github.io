@@ -1,40 +1,21 @@
-/* Navbar styling */
-.navbar {
-    background-color: #555;
-    /* Grey background */
-}
-
-/* Button styling */
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff !important;
-    /* White text */
-}
-
-/* Active button styling */
-.navbar-dark .navbar-nav .nav-item.active .nav-link {
-    background-color: #333;
-    /* Darker grey for active state */
-}
-
-/* Icon styling (adjust size as needed) */
-.navbar-dark .navbar-nav .nav-link i {
-    margin-right: 5px;
-    font-size: 18px;
-}
-
-/* Optional: Adjust padding/margin for spacing */
-.navbar-dark .navbar-nav .nav-link {
-    padding: 10px 15px;
+@import "bootstrap-5.3.2/dist/css/bootstrap.css";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(235, 233, 227);
+  background-color: red;
 }
 
 header {
-    background-color: #f0ead6;
-    /* Eggshell white */
-    transition: background-color 0.5s ease;
-    /* Smooth transition effect */
+  transition: background-color 0.5s ease; /* Smooth transition effect */
+  width: 100%;
 }
 
-header.scrolled {
-    background-color: #555;
-    /* Grey color for Resume and beyond */
+.navbar-brand {
+  font-family: "Perfectly Nineties Bold";
 }
+
+.navbar-toggler-icon {
+  background-color: rgb(69, 94, 182);
+}/*# sourceMappingURL=style.css.map */
