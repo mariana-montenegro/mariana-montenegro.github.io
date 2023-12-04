@@ -1,0 +1,40 @@
+/* Navbar styling */
+.navbar {
+    background-color: #555;
+    /* Grey background */
+}
+
+/* Button styling */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+    /* White text */
+}
+
+/* Active button styling */
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+    background-color: #333;
+    /* Darker grey for active state */
+}
+
+/* Icon styling (adjust size as needed) */
+.navbar-dark .navbar-nav .nav-link i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+/* Optional: Adjust padding/margin for spacing */
+.navbar-dark .navbar-nav .nav-link {
+    padding: 10px 15px;
+}
+
+header {
+    background-color: #f0ead6;
+    /* Eggshell white */
+    transition: background-color 0.5s ease;
+    /* Smooth transition effect */
+}
+
+header.scrolled {
+    background-color: #555;
+    /* Grey color for Resume and beyond */
+}
