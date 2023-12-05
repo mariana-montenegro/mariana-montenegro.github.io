@@ -1,22 +1,22 @@
-// required to get $orange variable
-@import "bootstrap-5.3.2/scss/functions"; 
-@import "bootstrap-5.3.2/scss/variables"; 
+@import "bootstrap-5.3.2/scss/functions";
+@import "bootstrap-5.3.2/scss/variables";
 
-$primary: red; // set the $primary variable
+$primary: rgba(69,94,182,1); // set the $primary variable
 
 // merge with existing $theme-colors map
 $theme-colors: map-merge($theme-colors, (
   "primary": $primary
 ));
 
-@import "bootstrap-5.3.2/dist/css/bootstrap.css";
+// Import the main Bootstrap SCSS file
+@import "bootstrap-5.3.2/scss/bootstrap.scss";
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color:rgb(235,233,227); 
-    background-color:red
+    color: $primary
 }
 
 header {
